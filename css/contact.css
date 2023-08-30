@@ -1,0 +1,16 @@
+.untree_co-section{
+    background-image:url(https://media.gettyimages.com/id/1340756894/photo/blueberry-cheesecake.jpg?s=612x612&w=0&k=20&c=v7uHJxdx26mG3XOv9wQE5r7gYwk258V8dgeyLOq0MEw=) ;
+    background-repeat:no-repeat; 
+    background-size: 50rem 50rem;
+    background-color:white;
+    height: 620px;
+    background-position:right;
+    position: relative;
+}
+
+.untree_co-section .block{
+    margin-right: 100%;
+}
+.untree_co-section form{
+    width: 35rem;
+}
