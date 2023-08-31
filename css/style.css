@@ -902,3 +902,43 @@ textarea {
       background-color: transparent;
       color: #6a1a69;
     }
+
+/* why section */
+
+.why_section .container .row{
+margin-left: 9rem;
+margin-right: 8rem;
+margin-bottom: 5rem;
+}
+
+    .why_section .box {
+      text-align: center;
+      margin-top: 45px;
+      background-color: #6a1a69;
+      padding: 45px 50px;
+      border-radius: 5px;
+      color: #ffffff;
+      
+  }
+
+  .why_section h2{
+    color: #6a1a69;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .detail-box h5 {
+      font-size: 21px;
+      font-weight: 700;
+  }
+  
+  
+  .why_section .box .img-box {
+    margin-bottom: 15px;
+  }
+  
+  .why_section .box .img-box svg {
+    width: 55px;
+    height: auto;
+    fill: #ffffff;
+  }
