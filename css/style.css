@@ -33,7 +33,9 @@ a {
 .custom-navbar {
   background: #6a1a69 !important;
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px; 
+  /* position:fixed;   */
+}
   .custom-navbar .navbar-brand {
     font-size: 32px;
     font-weight: 600; }
@@ -595,7 +597,9 @@ a {
     
   }
     .footer-section .cake-img img {
-      max-width: 480px; }
+      max-width: 480px; 
+      border-radius: 5rem;
+    }
   .footer-section .links-wrap {
     margin-top: 0px; }
     @media (min-width: 992px) {
