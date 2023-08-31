@@ -542,7 +542,7 @@ a {
     opacity: .7; }
 
 .footer-section {
-  padding: 80px 0;
+  padding: 40px 0;
   background: #ffffff; }
   .footer-section .relative {
     position: relative; }
@@ -566,7 +566,7 @@ a {
     .footer-section .subscription-form h3 {
       font-size: 18px;
       font-weight: 500;
-      color: #3b5d50; }
+      color: #6a1a69; }
     .footer-section .subscription-form .form-control {
       height: 50px;
       border-radius: 10px;
@@ -588,13 +588,14 @@ a {
         font-size: 14px; }
     .footer-section .subscription-form .btn {
       border-radius: 10px !important; }
-  .footer-section .sofa-img {
+  .footer-section .cake-img {
     position: absolute;
-    top: -200px;
-    z-index: 1;
-    right: 0; }
-    .footer-section .sofa-img img {
-      max-width: 380px; }
+    margin-left: 50rem;
+    margin-top: 4rem;
+    
+  }
+    .footer-section .cake-img img {
+      max-width: 480px; }
   .footer-section .links-wrap {
     margin-top: 0px; }
     @media (min-width: 992px) {
@@ -606,7 +607,7 @@ a {
     font-size: 32px;
     font-weight: 500;
     text-decoration: none;
-    color: #3b5d50; }
+    color: #6a1a69; }
   .footer-section .custom-social li {
     margin: 2px;
     display: inline-block; }
@@ -617,10 +618,10 @@ a {
       line-height: 40px;
       display: inline-block;
       background: #dce5e4;
-      color: #3b5d50;
+      color: #6a1a69;
       border-radius: 50%; }
       .footer-section .custom-social li a:hover {
-        background: #3b5d50;
+        background: #6a1a69;
         color: #ffffff; }
   .footer-section .border-top {
     border-color: #dce5e4; }
