@@ -1,0 +1,169 @@
+
+.sweet_section .heading_container {
+    margin-bottom: 20px;
+    padding: auto;
+  }
+  
+  .sweet_section .box {
+      position: relative;
+      margin-top: 25px;
+      padding: 35px 35px;
+      background-color: #f7f8f9;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+      overflow: hidden;
+      box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
+      border: solid #fff 10px;
+  }
+  
+  .sweet_section .box .img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 215px;
+  }
+  
+  .sweet_section .box .img-box img {
+    max-width: 10rem;
+    max-height: 12rem;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .sweet_section .box .detail-box {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .sweet_section .box .detail-box h5 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .sweet_section .box .detail-box h6 {
+    margin-top: 10px;
+    color: #002c3e;
+    font-weight: 600;
+  }
+  
+  .sweet_section .box:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+  .sweet_section .box:hover .option_container {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .arrival_section {
+      background-color: #d4ced0;
+  }
+  .sweet_section .option_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  
+  .sweet_section .options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .sweet_section .options a {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 30px;
+    width: 165px;
+    text-align: center;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin: 5px 0;
+  }
+  
+  .sweet_section .options .option1 {
+    background-color: #6a1a69;
+    border: 1px solid #6a1a69;
+    color: #ffffff;
+  }
+  
+  .sweet_section .options .option1:hover {
+    background-color: transparent;
+    color: #6a1a69;
+  }
+  
+  .sweet_section .options .option2 {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+  }
+  
+  .sweet_section .options .option2:hover {
+    background-color: transparent;
+    color: #000000;
+  }
+  
+  .sweet_section .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 45px;
+  }
+  
+  .sweet_section .btn-box a {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #6a1a69;
+    border: 1px solid #6a1a69;
+    color: #ffffff;
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .sweet_section .btn-box a:hover {
+    background-color: transparent;
+    color: #6a1a69;
+  }
